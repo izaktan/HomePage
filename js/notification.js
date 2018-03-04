@@ -1,8 +1,8 @@
 $(document).ready(function(){
 $("body").overhang({
-  type: "error",
-  message: "Tumblr available?",
-  duration: 5,
+  type: "success",
+  message: "Tumblr available? Try Tumblr version",
+  duration: 8,
   closeConfirm: true
 });
 });
