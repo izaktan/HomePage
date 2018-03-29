@@ -1,7 +1,10 @@
 $(document).ready(function(){
 $("body").overhang({
-  type: "success",
-  message: "Tumblr available? Try https://tumblr.txshore.tech/",
+  custom: true,
+  textColor: "#FFFAFA",
+  primary: "#222222",
+  accent: "#555555",
+  message: "Across the Great Wall we can reach every corner in the world."
   duration: 10,
   closeConfirm: true
 });
