@@ -1,5 +1,5 @@
 :root {
-  --expend-radius: 250px;
+  --expend-radius: 200px;
   --r: 17;
   --g: 206;
   --b: 142;
@@ -74,6 +74,9 @@ header h3 a:hover {
   background-clip: padding-box;
   -webkit-transition: all 0.2s ease;
   transition: all 0.5s ease;
+}
+#circle-menu .menu-trigger:hover {
+  background: #e96658;
 }
 .ripple {
   animation: ripple 0.6s linear infinite;
