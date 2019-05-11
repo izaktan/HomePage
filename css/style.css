@@ -226,3 +226,37 @@ header h3 a:hover {
     box-shadow: 0 0 0 20px rgba(255, 255, 255, 0.1), 0 0 0 40px rgba(255, 255, 255, 0.1), 0 0 0 60px rgba(255, 255, 255, 0.1), 0 0 0 80px rgba(255, 255, 255, 0);
   }
 }
+
+@media screen and (max-width:768px) {
+  #circle-menu {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+  }
+  #circle-menu .menu-trigger:before {
+    font-size: 10px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+  #circle-menu .menu-trigger:after {
+    font-size: 10px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%) !important;
+    transform: translate(-50%, -50%) !important;
+  }
+  #circle-menu ul li {
+    width: 50px;
+    height: 50px;
+  }
+  :root {
+    --expend-radius: 100px;
+  }
+  #circle-menu ul li a {
+    color: #fff;
+    font-size: 10px;
+    line-height: 50px;
+  }
+}
