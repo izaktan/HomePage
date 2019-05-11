@@ -74,6 +74,8 @@ header h3 a:hover {
   background-clip: padding-box;
   -webkit-transition: all 0.2s ease;
   transition: all 0.5s ease;
+}
+.ripple {
   animation: ripple 0.6s linear infinite;
 }
 #circle-menu .menu-trigger:before,
@@ -87,7 +89,7 @@ header h3 a:hover {
 #circle-menu .menu-trigger:before {
   font-family: "Font Awesome 5 Free";
   font-size: 30px;
-  content: "\f141";
+  content: "\f0c9";
   /*content: attr(data-open);*/
 }
 #circle-menu .menu-trigger:after {
