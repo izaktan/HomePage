@@ -1,27 +1,56 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Home Page Rebron</title>
-  <link rel="stylesheet" href="fontawesome/css/all.min.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link href="img/favicon32.png" rel="icon" type="image/x-icon">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page Rebron</title>
+    <link rel="stylesheet" href="css/loader.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="img/favicon32.png" rel="icon" type="image/x-icon">
 </head>
 
 <body>
-<div id="stage">
-  <div id="circle-menu"><a class="menu-trigger ripple" href="#" data-open="OPEN" data-close="CLOSE"></a>
-    <ul>
-      <li><a href="#"> <i class="far fa-address-card"></i></i></a></li>
-      <li><a href="https://www.linkedin.com/in/xiao-tan-shore/"> <i class="fab fa-linkedin"></i></a></li>
-      <li><a href="https://blog.txshore.xyz" target="_blank"> <i class="fab fa-blogger"></i></a></li>
-      <li><a href="https://github.com/xiaotan828" target="_blank"> <i class="fab fa-github"></i></i></a></li>
-      <li><a href="#"> <i class="fas fa-images"></i></a></li>
-    </ul>
-  </div>
-</div>
-  <script src='js/jquery.min.js'></script>
-  <script  src="js/index.js"></script>
+    <div class="spinner-wrapper">
+        <div class="spinner">
+            <div class="double-bounce1"></div>
+            <div class="double-bounce2"></div>
+        </div>
+    </div>
+    <div id="stage">
+        <div id="circle-menu">
+            <a class="menu-trigger ripple" href="#" data-open="OPEN" data-close="CLOSE"></a>
+            <ul>
+                <li>
+                    <a href="#"> <i class="far fa-address-card"></i></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/xiao-tan-shore/"> <i class="fab fa-linkedin"></i></a>
+                </li>
+                <li>
+                    <a href="https://blog.txshore.xyz" target="_blank"> <i class="fab fa-blogger"></i></a>
+                </li>
+                <li>
+                    <a href="https://github.com/xiaotan828" target="_blank"> <i class="fab fa-github"></i></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"> <i class="fas fa-images"></i></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script>
+        window.addEventListener('load', function(event) {
+            setTimeout(function() {
+                document.getElementsByClassName('spinner-wrapper')[0].style.display = 'none';
+            }, 800);
+        }, false);
+    </script>
+    <script src='js/jquery.min.js'></script>
+    <script src="js/index.js"></script>
 </body>
+
 </html>
