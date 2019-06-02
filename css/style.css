@@ -226,7 +226,17 @@ header h3 a:hover {
 #circle-menu.open ul li:hover:nth-child(5) {
   background-color: #79c279;
 }
-
+footer {
+  color: #fff;
+	position: absolute;
+	bottom: 15px;
+	margin: auto;
+	left: 0;
+	right: 0;
+	text-align: center;
+	font-size: 15px;
+	text-decoration:none;
+}
 
 /* ripple effect */
 @keyframes ripple {
@@ -269,5 +279,9 @@ header h3 a:hover {
     color: #fff;
     font-size: 15px;
     line-height: 50px;
+  }
+  footer {
+    bottom: 15px;
+    font-size: 14px;
   }
 }
