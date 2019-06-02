@@ -7,6 +7,9 @@
     <title>Home Page Rebron</title>
     <link rel="stylesheet" href="css/loader.css">
     <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <script src='js/jquery.min.js'></script>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <script src="bootstrap/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/style.css">
     <link href="img/favicon32.png" rel="icon" type="image/x-icon">
 </head>
@@ -22,9 +25,8 @@
         <div id="circle-menu">
             <a class="menu-trigger ripple" href="#" data-open="OPEN" data-close="CLOSE"></a>
             <ul>
-                <li>
-                    <a href="#"> <i class="far fa-address-card"></i></i>
-                    </a>
+                <li data-toggle="modal" data-target="#aboutModal">
+                    <a href="#"> <i class="far fa-address-card" ></i></i></a>
                 </li>
                 <li>
                     <a href="https://www.linkedin.com/in/xiao-tan-shore/"> <i class="fab fa-linkedin"></i></a>
@@ -42,12 +44,37 @@
             </ul>
         </div>
     </div>
+    <div class="modal fade" id="aboutModal" tabindex="-1" role="dialog" aria-labelledby="aboutModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title" id="aboutModalLabel">ABOUT ME</h4>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <h5>Who am I ?</h5>
+                <ul>
+                        <li> A basketball fan who likes LeBron James </li>
+                        <li> An "unattached" man for 19 years </li>
+                        <li> A programmer with sense of social responsibility </li>
+                        <li> A public forum debater </li>
+                        <li> A pioneer who is popularizing liberal arts education in China </li>
+                </ul>
+                <h5>More about me ? </h5>
+                <ul>
+                    <li><a href="#"> My Resume </a></li>
+                </ul>       
+            </div> 
+          </div>
+        </div>
+      </div>
     <script>
         window.addEventListener('load', function(event) {
                 document.getElementsByClassName('spinner-wrapper')[0].style.display = 'none';
         }, false);
     </script>
-    <script src='js/jquery.min.js'></script>
     <script src="js/index.js"></script>
 </body>
 
