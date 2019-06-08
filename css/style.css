@@ -52,7 +52,7 @@ header h3 a:hover {
   transform: translateX(-50%) translateY(-50%);
 }
 .modal-dialog {
-  top: 20%;
+  top: 15%;
 }
 .fade {
   background: #141719;
@@ -279,6 +279,9 @@ footer {
     color: #fff;
     font-size: 15px;
     line-height: 50px;
+  }
+  .modal-dialog {
+    top: 20%;
   }
   footer {
     bottom: 15px;
