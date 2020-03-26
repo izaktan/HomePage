@@ -12,6 +12,16 @@
      -moz-font-smoothing: antialiased;
      font-smoothing: antialiased;
 }
+ #silhouette {
+     position: fixed;
+     z-index: 0;
+     height: 150%;
+     width: 150%;
+     top: 50%;
+     margin-left: -300px;
+     -webkit-transform: translateY(-50%);
+     transform: translateY(-50%);
+ }
  header {
      text-align: center;
      padding: 120px 0;
@@ -150,7 +160,7 @@
      background-color: #9f44c6;
 }
  #circle-menu ul li:nth-child(5) {
-     background-color: #44ad44;
+     background-color: #1DB954;
 }
  #circle-menu ul li a {
      color: #fff;
