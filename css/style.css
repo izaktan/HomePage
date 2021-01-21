@@ -151,16 +151,16 @@
      background-color: #1abc9c;
 }
  #circle-menu ul li:nth-child(2) {
-     background-color: #308bed;
+     background-color: #df2029;
 }
  #circle-menu ul li:nth-child(3) {
-     background-color: #e67e22;
+     background-color: #308bed;
 }
  #circle-menu ul li:nth-child(4) {
-     background-color: #9f44c6;
+     background-color: #1DB954;
 }
  #circle-menu ul li:nth-child(5) {
-     background-color: #1DB954;
+     background-color: #9f44c6;
 }
  #circle-menu ul li a {
      color: #fff;
@@ -222,16 +222,16 @@
      background-color: #28e1bd;
 }
  #circle-menu.open ul li:hover:nth-child(2) {
-     background-color: #00adee;
+     background-color: red;
 }
  #circle-menu.open ul li:hover:nth-child(3) {
-     background-color: #eb9950;
+     background-color: #00adee;
 }
  #circle-menu.open ul li:hover:nth-child(4) {
-     background-color: #b85fdf;
+     background-color: #79c279;
 }
  #circle-menu.open ul li:hover:nth-child(5) {
-     background-color: #79c279;
+     background-color: #b85fdf;
 }
  footer {
      color: #fff;
